@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+.raund {
+    border: 3px solid rgb(0, 0, 0);
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin: 100px auto;
+    padding: 2.5rem;
+    box-sizing: border-box;
+    position: relative;
+    background-color: black;
+}
+
+.strelka2 {
+    width: 30%;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    animation: anime 0.2s linear infinite;
+    transform-origin: left;
+}
+
+.strelka {
+    width: 49%;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    animation: anime 0.1s linear infinite;
+    transform-origin: left;
+
+}
+
+@keyframes anime {
+
+    0% {
+        transform: rotate(0deg) scale(5);
+    }
+
+    100% {
+        transform: rotate(360deg) scale(1);
+    }
+}
+
+
+
+
+
